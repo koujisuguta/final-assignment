@@ -1,0 +1,39 @@
+:root{
+    --primary-bg: #28293E;
+    --secondary-bg: #FDF0E9;
+    --primary-color: white;
+    --secondary-color: #391400;
+    --padding-default: 24px;
+    --padding-narrow: 12px;
+}
+bady{
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+header{
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+    padding: var(-default-padding);
+}
+#logo{
+    width: 195px;
+}
+
+main{
+
+}
+
+main #main-about{
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg);
+}
+main #main-latestwork{
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+}
+footer{
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+}
