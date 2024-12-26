@@ -33,9 +33,14 @@ main #main-about{
     background-color: var(--secondary-bg);
 }
 main #main-latestwork{
-    color: rgb(192, 208, 255);
+    color: var(--primary-color);
     background-color: var(--primary-bg);
 }
+
+main #main-latestwork{
+    color: #c2b2ff;
+}
+
 main #main-images{
     display: flex;
     flex-wrap: wrap;
