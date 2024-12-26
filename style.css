@@ -1,7 +1,7 @@
 :root{
     --primary-bg: #380000;
-    --secondary-bg: #dbd2fd;
-    --primary-color: white;
+    --secondary-bg: #c2b2ff;
+    --primary-color: rgb(255, 255, 255);
     --secondary-color: #000000;
     --padding-default: 24px;
     --padding-narrow: 12px;
@@ -17,6 +17,9 @@ header{
     background-color: var(--primary-bg);
     padding: var(-default-padding);
 }
+header #header-catch-text{
+    font-size: 350%;
+}
 #logo{
     width: 195px;
 }
@@ -30,7 +33,7 @@ main #main-about{
     background-color: var(--secondary-bg);
 }
 main #main-latestwork{
-    color: var(--primary-color);
+    color: rgb(192, 208, 255);
     background-color: var(--primary-bg);
 }
 main #main-images{
